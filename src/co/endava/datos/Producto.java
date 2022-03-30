@@ -61,6 +61,8 @@ public class Producto {
     //Se realiza un metodo de descuento, que es el que tiene el precio, pero no lo guarda en una variable
     public double getDescuento(){
         return precio * 0.1d;
+
+
     }
 
 //Sobrecarga el metodo

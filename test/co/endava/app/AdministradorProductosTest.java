@@ -14,8 +14,8 @@ class AdministradorProductosTest {
     @Test
     void main() {
 String descuento1, descuento2, descuento3;
-descuento1 = "200.0";
-descuento3 = "100.o";
+descuento1 = "200.0"; //Descuento del 10%
+descuento3 = "100.o"; //Descuento del 5% incorrecto
 
         Comida p3 = new Comida(103, "Pastel", 2000, LocalDate.now());
 descuento2= Double.toString(p3.getDescuento());
